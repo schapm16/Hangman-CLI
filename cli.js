@@ -25,7 +25,7 @@ var userInputPrompt = {
   properties: {
     Letter: {
       description: colors.cyan('Your Guess'),
-      pattern: /^[a-zA-Z]+$/,
+      pattern: /^[a-zA-Z]$/,
       message: colors.red('Enter a letter smart aleck'),
       required: true
     }
@@ -37,7 +37,7 @@ var playAgainPrompt = {
   properties: {
     Response: {
       description: colors.cyan('y or n'),
-      pattern: /^[yn]+$/,
+      pattern: /^[yn]$/,
       message: "Enter either y or n",
       required: true
     }

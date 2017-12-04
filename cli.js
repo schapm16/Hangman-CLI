@@ -107,7 +107,7 @@ function decision(guessedLetter) { // This is the score keeper function that eva
 }
 
 function reset() {
-  numGuesses = 8;
+  numGuesses = 5;
   wordsArray.splice(0, wordsArray.length);
   lettersGuessed.splice(0, lettersGuessed.length);
   correctLetters = 0;

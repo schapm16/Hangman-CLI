@@ -117,7 +117,7 @@ function reset() {
   gameplay();
 }
 
-function playAgain() {
+function playAgain() {  // Contains prompt that will receive a response from user dicating whether they would like to play again (If lost) or continue playing (If won)
   prompt.get(playAgainPrompt, function(err, result) {
     if (result.Response === 'y') {
       reset();

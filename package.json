@@ -1,0 +1,24 @@
+{
+  "name": "hangman-cli",
+  "version": "1.0.0",
+  "description": "Hangman game using command line interface.",
+  "main": "cli.js",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schapm16/Hangman-CLI.git"
+  },
+  "author": "SJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schapm16/Hangman-CLI/issues"
+  },
+  "homepage": "https://github.com/schapm16/Hangman-CLI#readme"
+}
